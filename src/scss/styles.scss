@@ -1,0 +1,9 @@
+@use 'normalize';
+@use 'variables';
+@use 'fonts';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans';
+}
