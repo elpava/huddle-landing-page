@@ -1,12 +1,20 @@
+$heading-font: 'Poppins';
+$text-font: 'Open Sans';
+
 $pink: hsl(322, 100%, 66%);
 $light-pink: hsl(321, 100%, 78%);
 $light-red: hsl(0, 100%, 63%);
+$cyan: hsl(191, 100%, 50%);
 
 $very-dark-cyan: hsl(192, 100%, 9%);
 $very-pale-blue: hsl(207, 100%, 98%);
 
-$mobile-width: 375px;
-$desktop-width: 1440px;
+$p-x-mobile: 1rem;
+$p-left-mobile: 2rem;
+$p-right-mobile: 2rem;
 
-$heading-font: 'Poppins';
-$text-font: 'Open Sans';
+$m-t-divider-mobile: 8rem;
+$m-b-divider-mobile: 8rem;
+
+$mobile-width: 376px;
+$desktop-width: 1440px;

@@ -1,5 +1,5 @@
-import Index from "./components/Index";
-import "./App.scss";
+import Index from './components/Index';
+import './App.scss';
 
 function App() {
   return <Index />;

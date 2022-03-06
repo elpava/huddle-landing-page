@@ -1,0 +1,29 @@
+$values: '1' 1rem, '2' 2rem, '3' 3rem, '4' 4rem, '5' 5rem, '6' 6rem, '7' 7rem;
+$half-values: '0' 0.5rem, '1' 1.5rem, '2' 2.5rem, '3' 3.5rem, '4' 4.5rem,
+  '5' 5.5rem, '6' 6.5rem, '7' 7.5rem;
+
+@each $name, $value in $values {
+  .mb-#{$name} {
+    margin-bottom: $value !important;
+  }
+}
+
+@each $name, $value in $half-values {
+  .mb-#{$name}-half {
+    margin-bottom: $value !important;
+  }
+}
+
+@each $name, $value in $values {
+  .m-x-#{$name} {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+}
+
+@each $name, $value in $half-values {
+  .m-x-#{$name}-half {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+}
